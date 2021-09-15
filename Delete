@@ -1,0 +1,21 @@
+DELETE FROM Student
+WHERE NAME = 'Ram';
+
+
+DELETE FROM employees
+WHERE last_name = 'Johnson'
+AND employee_id >= 80;
+
+
+DELETE TOP(3)
+FROM employees
+WHERE last_name = 'Johnson';
+
+
+DELETE FROM Customers
+WHERE CustomerName='Alfreds Futterkiste'
+AND ContactName='Maria Anders';
+
+
+
+DELETE * FROM customers;
