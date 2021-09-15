@@ -1,0 +1,38 @@
+ALTER TABLE Customers
+ADD Email varchar(255);
+
+
+
+ALTER TABLE Customers
+DROP COLUMN Email;
+
+
+
+
+ALTER TABLE Persons
+ALTER COLUMN DateOfBirth year;
+
+
+
+
+ALTER TABLE Persons
+DROP COLUMN DateOfBirth;
+
+
+
+
+
+ ALTER TABLE Student
+ ADD (AGE number(3),COURSE varchar(40));
+ 
+ 
+ 
+ 
+ ALTER TABLE Student
+ MODIFY COURSE varchar(20);
+ 
+ 
+ 
+ 
+  ALTER TABLE Student
+  DROP COLUMN COURSE;
